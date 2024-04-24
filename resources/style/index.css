@@ -161,11 +161,9 @@ hr {
   height: 85%;
   filter: grayscale(0);
   background-size: cover;
-  background-color: var(--color-bg);
 }
 
 .myInfos > article:hover .likes-img {
-  filter: grayscale(0);
   object-fit: cover;
 }
 .myInfos > article .likes-img > img {
@@ -175,7 +173,6 @@ hr {
 
 .myInfos > article > h6 {
   color: var(--color-dark-grey);
-  background-color: var(--color-bg);
 }
 
 .myInfos > article:hover > h6 {
