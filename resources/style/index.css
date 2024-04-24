@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400&display=swap");
 :root {
-  --color-bg: #fdfffd;
+  --color-bg: #436592;
   --color-grey: #d1d1d1;
   --color-accent: #f797c7;
-  --color-white: white;
+  --color-white: #ffffff;
   --color-yellow: #fbffb1;
   --color-dark-grey: #bbb8b8;
 }
@@ -15,23 +15,29 @@
   font-family: "Noto Sans KR", sans-serif;
   box-sizing: border-box;
 }
-
+li{
+  color: var(--color-bg);
+}
+h1,h2,h3,h4,h5{
+  color: var(--color-bg);
+}
 a {
-  color: var(--color-bg-gray);
+  color: var(--color-white);
   /* text-decoration: none; */
 }
-
+body{
+  background-color: var(--color-white);
+}
 ::selection {
   background-color: var(--color-yellow);
 }
-
 .container {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 100px 75vh;
 
-  width: 90%;
-  height: 90vh;
+  width: 1300px;
+  height: 100vh;
   margin: auto;
 }
 
@@ -51,7 +57,7 @@ section::-webkit-scrollbar {
 .profile > img {
   width: 90%;
   padding: 10px;
-  background-color: var(--color-bg);
+  background-color: var(--color-white);
 }
 
 .projects div.backend,
@@ -75,7 +81,7 @@ hr {
   width: 250px;
   height: 250px;
   padding: 10px;
-  background-color: var(--color-bg);
+  background-color: var(--color-white);
 }
 
 .projects article > h3,
@@ -124,15 +130,15 @@ hr {
   color: var(--color-bg);
   font-size: 0.8em;
   border: none;
-  border-radius: 3px;
-  padding: 0 5px;
+  border-radius: 5px;
+  padding: 5px 5px;
   margin-right: 3px;
   background-color: var(--color-grey);
   white-space: nowrap;
 }
 
 .skills > span:hover {
-  background-color: #f797c7;
+  background-color: #F1C40F;
 }
 
 .description {
@@ -218,9 +224,9 @@ footer {
   flex-direction: column;
   justify-content: space-around;
 
-  width: 100vw;
+  width: 100%;
   height: 150px;
-  background-color: var(--color-grey);
+  background-color: #d1d1d1;
   font-size: 0.8em;
   margin-top: 20px;
 }
@@ -244,10 +250,10 @@ address {
     display: flex;
     position: fixed;
     z-index: 1;
-    width: 90%;
+    width: 100%;
     padding: 20px 30px;
     margin-bottom: 20px;
-    background-color: var(--color-white);
+    background-color: #34465D;
   }
 
   header.web {
