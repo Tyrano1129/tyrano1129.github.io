@@ -245,7 +245,9 @@ address {
   hr {
     width: 100%;
   }
-
+  h1{
+    color: #ffffff;
+  }
   header.mobile {
     display: flex;
     position: fixed;
@@ -272,6 +274,7 @@ address {
 
   .container {
     height: auto;
+    width: 100%;
   }
 
   .profile > img {
@@ -286,5 +289,8 @@ address {
   .myInfos > article {
     width: 85vw;
     height: 70vw;
+  }
+  footer{
+    width: 100%;
   }
 }
