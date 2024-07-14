@@ -241,6 +241,7 @@ address {
 @media screen and (max-width: 760px) {
   hr {
     width: 100%;
+    
   }
   h1{
     color: #ffffff;
@@ -280,6 +281,11 @@ address {
 
   .projects {
     order: -1;
+  }
+  .backend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .projects article,
